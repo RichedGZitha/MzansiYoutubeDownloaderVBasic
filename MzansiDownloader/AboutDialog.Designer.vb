@@ -97,7 +97,7 @@ Partial Class AboutDialog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 316)
+        Me.ClientSize = New System.Drawing.Size(282, 311)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblWebsiteHyperlink)
@@ -105,6 +105,8 @@ Partial Class AboutDialog
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(298, 350)
+        Me.MinimumSize = New System.Drawing.Size(298, 350)
         Me.Name = "AboutDialog"
         Me.Text = "About"
         Me.ResumeLayout(False)
