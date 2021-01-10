@@ -27,6 +27,8 @@ Partial Class AboutDialog
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblWebsiteHyperlink = New System.Windows.Forms.LinkLabel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -71,11 +73,33 @@ Partial Class AboutDialog
         Me.lblWebsiteHyperlink.TabStop = True
         Me.lblWebsiteHyperlink.Text = "https://equitek.herokuapp.com"
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(16, 208)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(78, 20)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Libraries"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(20, 241)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(105, 32)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Name: LibVideo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Developer: ???"
+        '
         'AboutDialog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 228)
+        Me.ClientSize = New System.Drawing.Size(282, 316)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblWebsiteHyperlink)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -92,4 +116,6 @@ Partial Class AboutDialog
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents lblWebsiteHyperlink As LinkLabel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class
