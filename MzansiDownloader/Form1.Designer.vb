@@ -42,7 +42,7 @@ Partial Class frmMzansiForm
         Me.menuHeader.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.menuHeader.Location = New System.Drawing.Point(0, 0)
         Me.menuHeader.Name = "menuHeader"
-        Me.menuHeader.Size = New System.Drawing.Size(384, 24)
+        Me.menuHeader.Size = New System.Drawing.Size(394, 24)
         Me.menuHeader.TabIndex = 0
         Me.menuHeader.Text = "Header menu"
         '
@@ -124,9 +124,10 @@ Partial Class frmMzansiForm
         '
         'frmMzansiForm
         '
+        Me.AcceptButton = Me.btnDownload
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(384, 441)
+        Me.ClientSize = New System.Drawing.Size(394, 441)
         Me.Controls.Add(Me.pbarDownloadMonitor)
         Me.Controls.Add(Me.btnDownload)
         Me.Controls.Add(Me.txtYoutubeURL)
@@ -134,10 +135,11 @@ Partial Class frmMzansiForm
         Me.Controls.Add(Me.picLogo)
         Me.Controls.Add(Me.menuHeader)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.KeyPreview = True
         Me.MainMenuStrip = Me.menuHeader
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(400, 480)
-        Me.MinimumSize = New System.Drawing.Size(400, 480)
+        Me.MaximumSize = New System.Drawing.Size(410, 480)
+        Me.MinimumSize = New System.Drawing.Size(410, 480)
         Me.Name = "frmMzansiForm"
         Me.Text = "Mzansi Youtube Downloader"
         Me.menuHeader.ResumeLayout(False)
