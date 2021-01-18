@@ -42,6 +42,7 @@ Partial Class frmMzansiForm
         Me.menuHeader.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.menuHeader.Location = New System.Drawing.Point(0, 0)
         Me.menuHeader.Name = "menuHeader"
+        Me.menuHeader.ShowItemToolTips = True
         Me.menuHeader.Size = New System.Drawing.Size(394, 24)
         Me.menuHeader.TabIndex = 0
         Me.menuHeader.Text = "Header menu"
@@ -105,6 +106,7 @@ Partial Class frmMzansiForm
         '
         Me.btnDownload.BackColor = System.Drawing.SystemColors.Control
         Me.btnDownload.Font = New System.Drawing.Font("Papyrus", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDownload.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btnDownload.Location = New System.Drawing.Point(13, 366)
         Me.btnDownload.Name = "btnDownload"
         Me.btnDownload.Size = New System.Drawing.Size(359, 62)
@@ -118,7 +120,7 @@ Partial Class frmMzansiForm
         Me.pbarDownloadMonitor.Name = "pbarDownloadMonitor"
         Me.pbarDownloadMonitor.Size = New System.Drawing.Size(359, 23)
         Me.pbarDownloadMonitor.Step = 1
-        Me.pbarDownloadMonitor.Style = System.Windows.Forms.ProgressBarStyle.Continuous
+        Me.pbarDownloadMonitor.Style = System.Windows.Forms.ProgressBarStyle.Marquee
         Me.pbarDownloadMonitor.TabIndex = 5
         Me.pbarDownloadMonitor.Visible = False
         '
@@ -127,6 +129,7 @@ Partial Class frmMzansiForm
         Me.AcceptButton = Me.btnDownload
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(394, 441)
         Me.Controls.Add(Me.pbarDownloadMonitor)
         Me.Controls.Add(Me.btnDownload)
@@ -134,6 +137,7 @@ Partial Class frmMzansiForm
         Me.Controls.Add(Me.lblInstructionText)
         Me.Controls.Add(Me.picLogo)
         Me.Controls.Add(Me.menuHeader)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.menuHeader
