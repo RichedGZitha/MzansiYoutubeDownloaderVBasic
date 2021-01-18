@@ -89,9 +89,9 @@ Partial Class AboutDialog
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(20, 241)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(105, 32)
+        Me.Label5.Size = New System.Drawing.Size(209, 32)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Name: LibVideo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Developer: ???"
+        Me.Label5.Text = "Name: VideoLibrary 3.0.9" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Developer: Bar Arnon, OMANSAK"
         '
         'AboutDialog
         '
