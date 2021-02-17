@@ -6,7 +6,7 @@
 Data privacy is a buzzword these days and like many people I was concerned with my digital footprint. Many online Youtube downloader use Advertisements to earn revenue and this can lead to all sorts of digital fingerprinting and tracking. As such I decided to create my own youtube downloader in VB.Net that is both functional and does not collect my data.
 
 # Libraries used:  
-As a big fan of Open source I looked around and found a erfect candidate library to do the heavy-lifting for me. The library of choice is  ** VideoLibrary 3.0.9 **  by Bar Arnon, OMANSAK.
+As a big fan of Open source I looked around and found a erfect candidate library to do the heavy-lifting for me. The library of choice is  **VideoLibrary 3.0.9**  by Bar Arnon, OMANSAK.
 
 It would be better to clarify that this project is only a wrapper built to use VideoLibrary, simply provides a GUI and uses multi-threading to achieve its goal.
 
