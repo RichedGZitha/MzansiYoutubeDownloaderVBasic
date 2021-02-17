@@ -1,4 +1,4 @@
-![Logo Image](MzansiDownloader\logo icon.png)
+![Logo Image](MzansiDownloader\logo/icon.png)
 
 
 # Mzansi downloader:
