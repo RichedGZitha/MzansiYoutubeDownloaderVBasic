@@ -1,4 +1,4 @@
-![Logo Image]["MzansiDownloader\logo icon.png"]
+![Logo Image]("MzansiDownloader\logo/icon.png")
 
 
 # Mzansi downloader:
@@ -33,8 +33,8 @@ You may contribute to this project by forking it. All the help would be apprecia
 ## Getting the VideoLibary:
 After opening the solution you need to run the following Nu-Get command on the CLI.
 
-"
+```
 	Install-Package VideoLibrary -Version 3.0.9
-"
+```
 
 And if you encounter some errors. Please follow this link to [VideoLibrary page](https://www.nuget.org/packages/VideoLibrary). 
