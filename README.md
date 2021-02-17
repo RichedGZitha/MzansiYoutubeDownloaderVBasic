@@ -1,4 +1,4 @@
-![Logo Image](https://raw.githubusercontent.com/RichedGZitha/MzansiYoutubeDownloaderVBasic/main/MzansiDownloader/logo%20icon.png?token=AKKM4OPALSY5VH3AO2OBOWLAFT5S4)
+![Logo Image](https://raw.githubusercontent.com/RichedGZitha/MzansiYoutubeDownloaderVBasic/main/MzansiDownloader/logo.JPEG?token=AKKM4OMISN3HHM5ZTDCZWCDAFT52Y)
 
 
 # Mzansi downloader:
