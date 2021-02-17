@@ -98,14 +98,9 @@ Public Class frmMzansiForm
     Private Sub backgroundDownload_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs)
 
         Try
-            Worker.ReportProgress(1)
-            Worker.ReportProgress(2)
-            Worker.ReportProgress(3)
-            Worker.ReportProgress(4)
-            Worker.ReportProgress(5)
+            Worker.ReportProgress(0)
 
             Dim video = YouTube.Default.GetVideo(WorkerDataInstance.link)
-            Worker.ReportProgress(100)
             File.WriteAllBytes(WorkerDataInstance.location & "\" & video.FullName, video.GetBytes())
             is_Downloaded = True
 
@@ -125,8 +120,6 @@ Public Class frmMzansiForm
             Me.lblInstructionText.Text = "Downloading ..."
 
         End If
-
-        pbarDownloadMonitor.Increment(1)
 
     End Sub
 
